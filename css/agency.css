@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -20,6 +20,7 @@ p {
 p.large {
   font-size: 16px;
 }
+/* properties of links - changed from yellow to blue*/
 a,
 a:hover,
 a:focus,
@@ -28,13 +29,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color:  #0040ff;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #0080ff;
 }
 h1,
 h2,
@@ -55,22 +56,24 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+/* button color*/
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #0080ff;
+  border-color: #0080ff;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
+/* color of button when hovered over*/
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #00bfff;
+  border-color: #00bfff;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -398,7 +401,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #00bfff;
 }
 .btn:focus,
 .btn:active,
